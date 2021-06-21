@@ -25,6 +25,7 @@ Vào thư mục Coloring, thay đổi file source.txt (nếu cần xử lí đ�
 
 Chương trình sẽ xuất ra file target.txt. Để ra được file đồ thị PDF cần sử dụng câu lệnh:
 >dot -Tpdf target.txt -o demo.pdf
+
 Đồ thị được tô màu biểu diễn trong file target.txt.
 
 ### 2.Cây khung nhỏ nhất (MST)
