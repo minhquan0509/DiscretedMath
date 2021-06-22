@@ -26,7 +26,7 @@ Vào thư mục Coloring, thay đổi file source.txt (nếu cần xử lí đ�
 Chương trình sẽ xuất ra file target.txt. Để ra được file đồ thị PDF cần sử dụng câu lệnh:
 >dot -Tpdf target.txt -o demo.pdf
 
-Đồ thị được tô màu biểu diễn trong file target.txt.
+Đồ thị được tô màu biểu diễn trong file demo.pdf.
 
 ### 2.Cây khung nhỏ nhất (MST)
 
@@ -41,10 +41,12 @@ Vào thư mục MST, thay đổi file dothi_source.txt (nếu cần xử lí đ�
 
 >.\main
 
-Tương tự như trên, chương trình xuất ra file demo_output.txt. Dể ra được file PDF biểu diễn đồ thị, sử dụng lệnh:
+Tương tự như trên, chương trình xuất ra file demo_input.txt và demo_output.txt (file dot biểu diễn đồ thị gốc và cây khung nhỏ nhất của nó). Để ra được file PDF biểu diễn đồ thị và MST, sử dụng lệnh:
+>dot -Tpdf demo_input.txt -o demo_input.pdf
+
 >dot -Tpdf demo_output.txt -o demo_output.pdf
 
-Cây khung nhỏ nhất của đồ thị được biểu diễn trong file demo_output.txt.
+Đồ thị gốc và cây khung nhỏ nhất của nó được biểu diễn trong file demo_input.pdf và demo_output.pdf.
 
 ### 3.Duyệt, tìm đường đi (BFS, DFS, Dijsktra)
 
@@ -58,6 +60,8 @@ Tương tự để chạy, vào terminal/cmd, cd đến thư mục Traverse và 
 >gcc -o main Traverse.o jlib.o libfdr\libfdr.a
 
 >.\main
+
+Chọn 1 trong 3 chức năng BFS, DFS, Dijsktra để chương trình thực hiện.
 
 
 
