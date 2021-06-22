@@ -5,9 +5,9 @@
 2. Trương Minh Hồng - 20194576
 3. Nguyễn Bá Thái - 20194666
 ## **II.Giới thiệu tổng quan**
-Đây là bài tập nhóm môn Toán rời rạc, nội dung về các thuật toán trên đồ thị gồm duyệt đồ thị **(BFS, DFS)**, tìm đường đi ngắn nhất **(Dijsktra)**, cây khung nhỏ nhất **(Kruskal)**, thuật toán tham lam tô màu đồ thị **(Greedy Algorithm for Coloring Graph)**. 
+Đây là bài tập nhóm môn Toán rời rạc, nội dung về các thuật toán trên đồ thị gồm duyệt đồ thị **(BFS, DFS)**, tìm đường đi ngắn nhất **(Dijsktra)**, cây khung nhỏ nhất **(Kruskal)**, thuật toán tham lam tô màu đồ thị **(Greedy Algorithm for Coloring Graph)**.
 ## **III.Ngôn ngữ và các extensions sử dụng**
-Ngôn ngữ được sử dụng là **C**, kèm theo cấu trúc dữ liệu [cây đỏ đen](http://web.eecs.utk.edu/~jplank/plank/classes/cs360/360/notes/Libfdr/) để xây dựng đồ thị. Cách xây dựng đồ thị bằng cây đỏ đen, vui lòng tham khảo [slide](https://users.soict.hust.edu.vn/hieunk/courses/IT3240E/lect06.pdf). Để visualize đồ thị, sử dụng [Graphviz](https://graphviz.org/about/).
+Ngôn ngữ được sử dụng là **C**, kèm theo cấu trúc dữ liệu [cây đỏ đen](http://web.eecs.utk.edu/~jplank/plank/classes/cs360/360/notes/Libfdr/) để xây dựng đồ thị. Cách xây dựng đồ thị bằng cây đỏ đen, vui lòng tham khảo [slide](https://users.soict.hust.edu.vn/hieunk/courses/IT3240E/lect06.pdf). Để visualize đồ thị, sử dụng [Graphviz](https://graphviz.org/about/). Xem cách cài đặt Graphviz tại [đây](https://youtu.be/Ti2Br2Pq_A4).
 ## **IV.Demo chương trình**
 Vui lòng xem [playlist](https://www.youtube.com/playlist?list=PL2-9WSG7DAvUtaesL58PTmWnnV59CiGn7).
 ## **V.Về chương trình**
